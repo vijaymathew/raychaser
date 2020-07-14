@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vijay Mathew / Photography</title>
+    <title>Vijay Mathew / Photography / About</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -10,57 +10,64 @@
     <link rel="stylesheet" href="style/w3.css">
     <link rel="stylesheet" href="style/style.css">
   </head>
-
   <body>
 
-    <!-- Sidebar -->
-    <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-      <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
-	<i class="fa fa-remove"></i>
-      </a>
-      <div class="w3-bar-block w3-center">
-	<a href="gallery.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Gallery</a>
-	<a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-	<a href="mailto:mathew.vijay@gmail.com" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+	<a href="index.html" class="w3-bar-item w3-button">Vijay Mathew / Photography</a>
+	<!-- Right-sided navbar links. Hide them on small screens -->
+	<div class="w3-right w3-hide-small">
+	  <a href="gallery.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Gallery</a>
+	  <a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+	  <a href="mailto:mathew.vijay@gmail.com" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+	</div>
       </div>
-    </nav>
+    </div>
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-content" style="max-width:1500px">
 
       <!-- Header -->
       <div class="w3-opacity">
-	<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+	<span class="w3-button w3-xxlarge w3-white w3-right"><i class="fa fa-bars"></i></span> 
 	<div class="w3-clear"></div>
 	<header class="w3-center w3-margin-bottom">
-	  <h1><a href="index.html" class="w3-button"><b>Vijay Mathew / Photography</a></b></h1>
 	</header>
       </div>
 
-      <div>
-	<p>I am an enthusiastic photographer from Kerala, India. I started taking photography seriously during
-	  the 2020 pandemic lockdown. Most photos you find in this website were captured near my home.</p>
+      <h2 align="center">About</h2>
 
-	<p>If you have any tips to help me improve my photography, I will be more than eager
-	  to <a href="mailto:mathew.vijay@gmail.com">listen!</a></p>
-	<!-- End Page Content -->
-      </div>
+      <p>I am an enthusiastic photographer from Kerala, India. I started taking photography seriously during
+	the 2020 pandemic lockdown. Most photos you find in this website were captured near my home.</p>
 
-    <footer class="w3-container w3-padding-64 w3-center w3-large">
+      <p>If you enjoy the content on this website, please let me know. If you have any tips to help me improve my photography, I will be more than eager to listen! You can either email me: <a href="mailto:mathew.vijay@gmail.com">mathew.vijay@gmail.com</a> or message me on <a href="https://twitter.com/vijmatphotos">twitter</a>.</p>
+
+      <h2>License</h2>
+      <p>All content on this website, including images, are under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>. This means, you are free to:</p>
+
+      <ul>
+	<li>Share — copy and redistribute the material in any medium or format</li>
+	<li>Adapt — remix, transform, and build upon the material for any purpose, even commercially.</li>
+      </ul>
+      <p>Under the following terms:</p>
+      <ul>
+	<li>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>
+	<li>ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</li>
+	<li>No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</li>
+      </ul>
+
+      <h2>Privacy</h2>
+      <p>This website does not collect any information about you. It does not keep track of your browsing behavior using cookies
+	or other hidden means.</p>
+
+      <!-- End Page Content -->
+    </div>
+
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
       <a href="https://twitter.com/vijmatphotos?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @vmatphoto</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </footer>
-    
-    <script>
-      // Open and close sidebar
-      function w3_open() {
-	  document.getElementById("mySidebar").style.width = "100%";
-	  document.getElementById("mySidebar").style.display = "block";
-      }
 
-      function w3_close() {
-	  document.getElementById("mySidebar").style.display = "none";
-      }
-    </script>
+      <p align="center"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p><p align="center">All content in this website are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+    </footer>
 
   </body>
 </html>
