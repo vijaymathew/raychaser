@@ -4,6 +4,7 @@
     <title>RayChaser / Gallery / 2021 / Nature</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../../slides.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,32 +31,42 @@
       <!-- Header -->
       <div style="padding-bottom:150px"></div>
 
-      <div>
+	<div class="slideshow-container" style="width:50%">
 
-	<!-- Photo Grid -->
-	<div class="w3-row-padding" id="myGrid" style="margin-bottom:128px;margin-left:15%">
-	  <div class="w3-row-padding" id="myGrid" style="margin-bottom:0px;margin-left:5%">
-	    <a href="../../images/photos/y2021/nature/nat_08032021_01_hq.jpg" target="_blank">
-	      <img class="w3-card-4"
-		   src="../../images/photos/y2021/nature/nat_08032021_01_lq.jpg"
-		   alt="View from the rock"
-		   width="467" height="299"></a>
-	    &nbsp;&nbsp
-	    <a href="../../images/photos/y2021/nature/nat_21032021_01_hq.jpg" target="_blank">
-	      <img class="w3-card-4"
-		   src="../../images/photos/y2021/nature/nat_21032021_01_lq.jpg"
-		   alt="Leaves"
-		   width="467" height="299"></a>
+	  <!-- Full-width images with number and caption text -->
+	  <div class="mySlides fade">
+	    <div class="numbertext">1 / 3</div>
+	    <img src="../../images/photos/y2021/nature/nat_08032021_01_lq.jpg"
+		 alt="forest tree"
+		 style="width:100%"></img>
 	  </div>
-          <div class="w3-row-padding" id="myGrid" style="margin-bottom:0px;margin-left:30%">
-	    <a href="../../images/photos/y2021/nature/nat_22032021_01_hq.jpg" target="_blank">
-	      <img class="w3-card-4"
-		   src="../../images/photos/y2021/nature/nat_22032021_01_lq.jpg"
-		   alt="Rocks"
-		   width="333" height="471"></a>
+
+	  <div class="mySlides fade">
+	    <div class="numbertext">2 / 3</div>
+	      <img src="../../images/photos/y2021/nature/nat_22032021_01_lq.jpg"
+		   alt="sand stone pebbles"
+		   style="width:100%"></img>
 	  </div>
+
+	  <div class="mySlides fade">
+	    <div class="numbertext">3 / 3</div>
+	      <img src="../../images/photos/y2021/nature/nat_21032021_01_lq.jpg"
+		   alt="leaves and light"
+		   style="width:100%"></img>
+	  </div>
+	  <!-- Next and previous buttons -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
-      </div>
+	<br>
+
+	<!-- The dots/circles -->
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span>
+	  <span class="dot" onclick="currentSlide(2)"></span>
+	  <span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+
       <!-- End Page Content -->
     </div>
     
@@ -65,6 +76,11 @@
       <p style="text-align:center"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>
       <p style="text-align:center">All content in this website are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
     </footer>
-    
+
+    <script>
+      var slideIndex=1;
+      showSlides(slideIndex);
+    </script>
+
   </body>
 </html>
